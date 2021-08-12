@@ -1,0 +1,24 @@
+
+package modulo3;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	
+	public static void main(String[] args) {
+		int dia = 1;
+		int mes;
+		int ano;
+
+		do {
+			Scanner entradaMes = new Scanner(System.in);
+			System.out.println("Digite um número referente ao mês, entre 1 e 12:");
+			mes = entradaMes.nextInt();
+			}
+			while (mes <=0 || mes >12);
+		
+System.out.println("Você digitou o mês " + mes);
+
+}
+}
